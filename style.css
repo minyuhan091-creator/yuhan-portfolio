@@ -66,6 +66,13 @@ h1 span{color:var(--accent-dark)}
   background:radial-gradient(circle at 34% 25%,#cfd6ca 0,#aebcab 36%,#788b77 100%);
   overflow:hidden
 }
+.portrait-card img{
+    width:100%;
+    aspect-ratio:4/5;
+    object-fit:cover;
+    border-radius:27px;
+    display:block;
+}
 .portrait-placeholder::before{
   content:"";position:absolute;width:230px;height:230px;border-radius:50%;
   background:rgba(255,255,255,.18);filter:blur(3px)
